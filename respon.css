@@ -1,0 +1,128 @@
+#lo {
+	color: green;
+	font-size: 20px;
+
+}
+#col {
+	color: blue;
+	margin-left: 10px;
+	font-size: 18px;
+}
+#v {
+	border: 2px solid black;
+	padding-left: 25%;
+	padding-right: 25%;
+	min-width: 300px;
+	max-width: 1300px;
+	width: 100%;
+}
+
+.containerslider{
+	/* border: 2px solid red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+#myCarousel{ 
+	 width: 50%; 
+}
+
+.container{
+	width: auto; 
+}
+
+.button1{
+	width: auto;
+	background-color: royalblue;
+}
+
+#par {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+@media only screen and (max-width: 480px) {
+	#par{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+
+#par1 {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	direction: row;
+	flex-wrap: wrap;
+	
+}
+@media only screen and (max-width: 480px) {
+	#par1{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+
+#jumbo {
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+@media only screen and (max-width: 480px) {
+	#jumbo{
+		font-size: 12px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+ *{
+   margin: 0; padding: 0; box-sizing: border-box;
+   font-family: 'Maven Pro', sans-serif;
+  }
+  header{ width: 100%; height: 300px; background: #d2dae2;}
+  .footer_style{
+   background: #2F4F4F; color: white;
+  }
+  h4{
+    color:orange;
+  }
+  a{
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+  }
+  dt{
+    color: pink;
+    font-size:18px;
+  }
+  dd{
+  	font-size: 15px;
+  }
+  p{
+  	font-size: 15px;
+  }
+
+  a:hover{ text-decoration: none; color: #4bcffa; }
+
+  .d-flex div{
+    text-align: center;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+  }
+
+  .d-flex div:last-child{
+   border-right:none;
+  }
+
+  @media(max-width: 768px){
+   li{
+    list-style: none;
+   }
+
+   .d-flex span{
+    display: none;
+   }
+  }
